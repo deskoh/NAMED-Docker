@@ -1,0 +1,12 @@
+bind:
+  image: 'named'
+  container_name: 'named'
+
+  ports:
+    - 53:53/udp
+
+  volumes:
+    - ./config:/etc/bind
+    - ./log:/var/log/named
+
+  restart: always

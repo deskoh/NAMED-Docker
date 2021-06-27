@@ -1,4 +1,6 @@
-# NAMED Domain Name Server (DNS)
+# NAMED Domain Name Server (DNS) [Archived]
+
+> See [CoreDNS](https://github.com/deskoh/docker-coredns) as an alternative.
 
 Runs a DNS server in a container.
 
